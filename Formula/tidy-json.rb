@@ -1,21 +1,21 @@
 class TidyJson < Formula
   desc "A cli for tidying up json files."
   homepage "https://github.com/todor-a/tidy-json"
-  version "0.2.3"
+  version "0.2.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/todor-a/tidy-json/releases/download/v0.2.3/tidy-json-aarch64-apple-darwin.tar.gz"
-      sha256 "98ab12292661cd5f59e2ab5ab0f7cf077ca2229410a61dc262e3fc69b91666ee"
+      url "https://github.com/todor-a/tidy-json/releases/download/v0.2.4/tidy-json-aarch64-apple-darwin.tar.gz"
+      sha256 "96bd9f419f6728140b84f785bd17495ab350ef340e9e49b0d3442e03c8db8d4a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/todor-a/tidy-json/releases/download/v0.2.3/tidy-json-x86_64-apple-darwin.tar.gz"
-      sha256 "83a6f2f2aa23c2d48d32f62e911d6ebbb2a57fa315c3e3309d9f94833fb2d966"
+      url "https://github.com/todor-a/tidy-json/releases/download/v0.2.4/tidy-json-x86_64-apple-darwin.tar.gz"
+      sha256 "fc7dddbbc5794e81995787908626f0cc2240f897e6a3782adc4e37deb35297a5"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/todor-a/tidy-json/releases/download/v0.2.3/tidy-json-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "afc572dac6ff23d133f336a5318d840374b778a44c7c7381908781e27aecbffb"
+      url "https://github.com/todor-a/tidy-json/releases/download/v0.2.4/tidy-json-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7560d0d93c860d30ba73867200fd8d91c50fd9cde054cd0516c5b9dd51fb32a4"
     end
   end
   license "MIT"
